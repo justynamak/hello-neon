@@ -1,0 +1,51 @@
+
+.header{
+	width: 94%;
+	height: 80vh;
+	min-height: 16em;
+	position: relative;
+	margin: 0 auto;
+	background: url(../assets/herobanner.jpg);
+	background-size: cover;
+	background-position: center bottom;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	@media #{$media-large-size}{
+		width:90%;
+		
+	}
+	@media #{$media-medium-size}{
+		width:84%;
+	}
+	@media #{$media-small-size}{
+		width:80%;
+	}
+	
+
+	&__title{
+		font-size: 3.5em;
+		font-family: $base-font-family;			
+		position: relative;
+		white-space: nowrap;
+		letter-spacing: 0.05em;
+		z-index: 1;		
+		color: $color-violet;
+		font-weight: 600;
+		line-height: 1.5;
+		background:url(../assets/now.svg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 2rem;
+		
+		@media #{$media-small-size}{
+			font-size: 2em;
+			padding: 1.5rem;
+		}
+		
+	}
+
+}

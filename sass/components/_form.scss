@@ -1,0 +1,20 @@
+.form{
+	
+	font-size: 0.85em;
+	
+	&__label{
+		@extend %form-elements-appearance;
+		margin-top: 2em;
+	}
+	
+	&__input{
+		@extend %form-elements-appearance;
+		@extend %form-input-textarea-appearance;
+		
+	}
+	
+	&__textarea{
+		@extend %form-elements-appearance;
+		@extend %form-input-textarea-appearance;
+	}
+}
