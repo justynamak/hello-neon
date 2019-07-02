@@ -5,6 +5,7 @@
   <li>SASS</li>
   <li>BEM</li> 
   <li>Java Script</li> 
+  <li>Webpack</li>
 </ul>
 
 <a href="https://justynamak.github.io/hello-neon/">DEMO</a>
