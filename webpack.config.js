@@ -23,25 +23,6 @@ module.exports = {
           }
         }
       },
-      // {
-      //   test: /\.html$/,
-      //   use: [
-      //     "html-loader",
-      //     {
-      //       loader: "posthtml-loader",
-      //       options: {
-      //         ident: "posthtml",
-      //         parser: "PostHTML Parser",
-      //         plugins: [
-      //           /* PostHTML Plugins */
-      //           require("posthtml-plugin")()
-      //         ]
-      //       }
-      //     }
-      //   ]
-      // },
-      // {
-
       {
         test: /\.(png|jpe?g|gif|svg)$/,
         use: [
@@ -58,21 +39,6 @@ module.exports = {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader"]
       },
-      // {
-      //   test: /\.scss$/,
-      //   use: [
-      //     {
-      //       loader: MiniCssExtractPlugin.loader,
-      //       options: {
-      //         publicPath: "./",
-      //         hmr: process.env.NODE_ENV === "development"
-      //       }
-      //     },
-      //     "css-loader",
-      //     "postcss-loader",
-      //     "sass-loader"
-      //   ]
-      // }
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
