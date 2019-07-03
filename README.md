@@ -8,8 +8,4 @@
   <li>Webpack</li>
 </ul>
 
-<<<<<<< HEAD
 <a href="https://justynamak.github.io/hello-neon/dist/">DEMO</a>
-=======
-<a href="https://justynamak.github.io/hello-neon/dist">DEMO</a>
->>>>>>> 1b218c23c4d0dec25f654fe10efe22deab14b09a
