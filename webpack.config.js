@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const minify = require("html-minifier").minify;
+const GoogleFontsPlugin = require("google-fonts-plugin");
 
 module.exports = {
   mode: "production",
@@ -76,6 +77,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: "[name].css"
-    })
+    }),
+    new GoogleFontsPlugin("./config.json")
   ]
 };
