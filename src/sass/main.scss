@@ -14,7 +14,6 @@
 //typography
 @import "base/typography";
 
-
 //COMPONENTS
 
 //nav
@@ -24,8 +23,9 @@
 //form
 @import "components/form";
 //button
-@import"components/button";
-
+@import "components/button";
+//button
+@import "components/slide-in";
 
 //LAYOUT
 
@@ -40,7 +40,6 @@
 
 //footer
 @import "layout/footer";
-
 
 //EXTENDS
 @import "base/extends";
