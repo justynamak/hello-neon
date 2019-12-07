@@ -130,7 +130,7 @@
     "safe-regex": "^1.1.0",
     "schema-utils": "^1.0.0",
     "semver": "^5.7.0",
-    "serialize-javascript": "^1.7.0",
+    "serialize-javascript": "^2.1.1",
     "setimmediate": "^1.0.5",
     "sha.js": "^2.4.11",
     "snapdragon-node": "^2.1.1",
